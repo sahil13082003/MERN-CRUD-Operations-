@@ -1,2 +1,2 @@
-# MERN-CRUD-Operations-
+# MERN-CRUD-Operations
 MERN Stack CRUD Operation
