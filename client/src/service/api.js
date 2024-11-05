@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const URL = "https://mern-crud-operations-9948.onrender.com";
+// const URL = "https://mern-crud-operations-9948.onrender.com";
+const URL = "http://localhost:8000";
 
 export const addUser = async(data) => {
     try{
