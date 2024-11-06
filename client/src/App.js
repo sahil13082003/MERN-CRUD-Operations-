@@ -13,10 +13,11 @@ import EditUser from './components/EditUser';
 function App() {
   return (
     <div className="App">
+      <Sahildeveloper />
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route exact path='/' element={<Sahildeveloper />} />
+          {/* <Route exact path='/' element={<Sahildeveloper />} /> */}
           <Route path="/allusers" element={<Alluser />} />
           <Route path="/addUser/*" element={<Adduser />} />
           <Route path="/edit/:_id" element={<EditUser />} />
